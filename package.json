@@ -1,20 +1,15 @@
 {
   "name": "hisasann-dialy",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "hisasann-dialy",
+  "version": "0.0.0",
+  "author": "hisasann <hisasann25@gmail.com>",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vivliostyle build",
+    "preview": "vivliostyle preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hisasann/hisasann-dialy.git"
+  "dependencies": {
+    "@vivliostyle/cli": "latest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hisasann/hisasann-dialy/issues"
-  },
-  "homepage": "https://github.com/hisasann/hisasann-dialy#readme"
+  "license": "MIT",
+  "private": true
 }
