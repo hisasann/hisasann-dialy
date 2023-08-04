@@ -1,0 +1,23 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "hisasann-dialy",
+  "author": "hisasann <hisasann25@gmail.com>",
+  "dateModified": "2023-08-04T17:04:26.199Z",
+  "readingOrder": [
+    {
+      "url": "manuscript.html",
+      "name": "{吾輩|わがはい}は猫である。"
+    },
+    {
+      "url": "2021-08.html",
+      "name": "2021年8月9日"
+    }
+  ],
+  "resources": [],
+  "links": []
+}
