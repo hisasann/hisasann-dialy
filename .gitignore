@@ -276,3 +276,7 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/vim,webstorm,node
+
+# add
+publish.html
+publish/
