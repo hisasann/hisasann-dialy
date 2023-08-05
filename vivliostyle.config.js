@@ -5,7 +5,6 @@ module.exports = {
   // size: 'A4', // paper size.
   theme: "@vivliostyle/theme-gutenberg@^0.1.1", // .css or local dir or npm package. default to undefined.
   entry: [
-    "manuscript.md", // `title` is automatically guessed from the file (frontmatter > first heading).
     "2021-08.md",
     // {
     //   path: 'epigraph.md',

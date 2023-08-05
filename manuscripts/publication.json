@@ -7,12 +7,8 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "name": "hisasann-dialy",
   "author": "hisasann <hisasann25@gmail.com>",
-  "dateModified": "2023-08-04T17:15:00.412Z",
+  "dateModified": "2023-08-05T13:09:45.702Z",
   "readingOrder": [
-    {
-      "url": "manuscript.html",
-      "name": "{吾輩|わがはい}は猫である。"
-    },
     {
       "url": "2021-08.html",
       "name": "2021年8月9日"
