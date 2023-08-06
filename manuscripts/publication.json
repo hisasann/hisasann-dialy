@@ -7,11 +7,16 @@
   "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
   "name": "hisasann-dialy",
   "author": "hisasann <hisasann25@gmail.com>",
-  "dateModified": "2023-08-05T17:56:21.368Z",
+  "inLanguage": "ja",
+  "dateModified": "2023-08-06T13:43:46.116Z",
   "readingOrder": [
     {
       "url": "2021-08.html",
       "name": "2021年8月9日"
+    },
+    {
+      "url": "2021-09.html",
+      "name": "2021年9月1日"
     }
   ],
   "resources": [],
