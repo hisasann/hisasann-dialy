@@ -1,11 +1,12 @@
 module.exports = {
   title: "hisasann-dialy", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "hisasann <hisasann25@gmail.com>", // default to `author` in `package.json` or undefined.
-  // language: 'ja', // default to undefined.
-  // size: 'A4', // paper size.
-  theme: "@vivliostyle/theme-gutenberg@^0.1.1", // .css or local dir or npm package. default to undefined.
+  language: 'ja', // default to undefined.
+  size: 'A5', // paper size.
+  theme: "@vivliostyle/theme-bunko@beta", // .css or local dir or npm package. default to undefined.
   entry: [
     "2021-08.md",
+    "2021-09.md",
     // {
     //   path: 'epigraph.md',
     //   title: 'Epigraph', // title can be overwritten (entry > file),
