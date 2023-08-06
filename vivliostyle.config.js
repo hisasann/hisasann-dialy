@@ -5,8 +5,10 @@ module.exports = {
   size: 'A5', // paper size.
   theme: "@vivliostyle/theme-bunko@beta", // .css or local dir or npm package. default to undefined.
   entry: [
+    "prologue.md",
     "2021-08.md",
     "2021-09.md",
+    "epilogue.md",
     // {
     //   path: 'epigraph.md',
     //   title: 'Epigraph', // title can be overwritten (entry > file),
