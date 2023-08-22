@@ -1,0 +1,56 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "hisasann-dialy",
+  "author": "hisasann <hisasann25@gmail.com>",
+  "inLanguage": "ja",
+  "dateModified": "2023-08-22T16:11:50.468Z",
+  "readingOrder": [
+    {
+      "url": "prologue.html",
+      "name": "まえがき"
+    },
+    {
+      "url": "2021-08.html",
+      "name": "2021年8月9日"
+    },
+    {
+      "url": "2021-09.html",
+      "name": "2021年9月1日"
+    },
+    {
+      "url": "2021-10.html",
+      "name": "2021年10月1日"
+    },
+    {
+      "url": "epilogue.html",
+      "name": "あとがき"
+    }
+  ],
+  "resources": [
+    "publication.json",
+    "themes/packages/@vivliostyle/theme-base/css/common/basic.css",
+    "themes/packages/@vivliostyle/theme-base/css/common/meta-properties.css",
+    "themes/packages/@vivliostyle/theme-base/css/common/reset.css",
+    "themes/packages/@vivliostyle/theme-base/css/lib/prism/base.css",
+    "themes/packages/@vivliostyle/theme-base/css/lib/prism/theme-okaidia.css",
+    "themes/packages/@vivliostyle/theme-base/css/lib/prism/theme-prism.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/crossref.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/endnote.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/footnote-external-link.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/footnote.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/page.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/section.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/toc.css",
+    "themes/packages/@vivliostyle/theme-base/css/partial/utility-classes.css",
+    "themes/packages/@vivliostyle/theme-base/example/assets/Logo (Mark + Type).png",
+    "themes/packages/@vivliostyle/theme-base/theme-all.css",
+    "themes/packages/@vivliostyle/theme-base/theme-basic.css",
+    "themes/packages/@vivliostyle/theme-bunko/theme.css"
+  ],
+  "links": []
+}
