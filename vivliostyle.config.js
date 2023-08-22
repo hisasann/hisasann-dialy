@@ -9,6 +9,7 @@ module.exports = {
     "2021-08.md",
     "2021-09.md",
     "2021-10.md",
+    "2021-11.md",
     "epilogue.md",
     // {
     //   path: 'epigraph.md',
