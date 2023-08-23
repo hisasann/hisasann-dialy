@@ -2,9 +2,20 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>hisasann-dialy</title>
+    <title>2021年11月1日</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="themes/packages/@vivliostyle/theme-bunko/theme.css">
   </head>
-  <body></body>
+  <body>
+    <section class="level1" aria-labelledby="2021年11月1日">
+      <h1 id="2021年11月1日">2021年11月1日</h1>
+      <p>仕事で疲れて部屋から出たら、目の前に「ポテトチップス・コンソメパンチ、うすしお、麩菓子」が置かれていた。こうゆうのはほんと疲れが吹き飛ぶ。最近ポテチにハマってるので、嫁さんが買ってきてくれていた。こうゆうのはほんと疲れが吹き飛ぶ。</p>
+      <p>定義位置にジャンプする機能で、だいたいは定義ファイルにジャンプするだけでインターフェイスはわかるので問題ないのだが、デバッグするときは実装コードを見に行きたい。そんなときに WebStorm のジャンプ機能がいい感じかとおもったら TypeScript では機能するが、 FlowType ではダメだった。eclipse はもう10年近くまえから interface ではなく impl ファイルを開く機能があるので、なんとか組み込んでもらえないだろうか。 WebStorm くんがんばれ！</p>
+      <p>リフレクションや DI などをして、依存モジュールをインジェクションしてるコードは、プログラム的に依存関係がゆるいので、保守性が高いというような話があってそれは確かにそうなのかもしれないが、ストラテジーパターンなどを用いない場合、そこまで使わなくてもよいのではないかと思った。AOP のときは自動的に DI を使うことになるが、やっぱり定義位置にジャンプできないのはつらい。grep 性が高ければよいが、文字列結合で factory('hoge' + '-repository') のような文字列結合をしていると grep はほぼできないしとても大変だ。</p>
+      <p>Google 社内で TypeScript が共通言語として認定されたようだ。TypeScript の重要性が今後ますます高まるな。</p>
+      <p>コード読むとき</p>
+      <pre class="language-tsx"><code class="language-tsx"><span class="token keyword">const</span> a<span class="token operator">:</span> <span class="token maybe-class-name">Hoge</span> <span class="token operator">=</span> <span class="token generic-function"><span class="token function">createSomething</span><span class="token generic class-name"><span class="token operator">&#x3C;</span><span class="token maybe-class-name">Hoge</span><span class="token operator">></span></span></span><span class="token punctuation">(</span>something1<span class="token punctuation">,</span> something2<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
+      <p>のように戻り値 <code>Hoge</code> の型がちゃんと書かれてるコードはかなり読みやすい。小さなことかもしれないが、このように型がきっちり書かれていると createSomething を読みに行かなく済むので助かる。ほんと些細なことだが。</p>
+    </section>
+  </body>
 </html>
