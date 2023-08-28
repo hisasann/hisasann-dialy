@@ -1,0 +1,50 @@
+{
+  "@context": [
+    "https://schema.org",
+    "https://www.w3.org/ns/pub-context"
+  ],
+  "type": "Book",
+  "conformsTo": "https://github.com/vivliostyle/vivliostyle-cli",
+  "name": "@hisasann日記",
+  "author": "hisasann <hisasann25@gmail.com>",
+  "inLanguage": "ja",
+  "dateModified": "2023-08-24T10:39:34.629Z",
+  "readingOrder": [
+    {
+      "url": "index.html",
+      "name": "Table of Contents",
+      "rel": "contents",
+      "type": "LinkedResource"
+    },
+    {
+      "url": "prologue.html",
+      "name": "まえがき"
+    },
+    {
+      "url": "2021-08.html",
+      "name": "2021年8月9日"
+    },
+    {
+      "url": "2021-09.html",
+      "name": "2021年9月1日"
+    },
+    {
+      "url": "2021-10.html",
+      "name": "2021年10月1日"
+    },
+    {
+      "url": "2021-11.html",
+      "name": "2021年11月1日"
+    },
+    {
+      "url": "2021-12.html",
+      "name": "2021年12月1日"
+    },
+    {
+      "url": "epilogue.html",
+      "name": "あとがき"
+    }
+  ],
+  "resources": [],
+  "links": []
+}

@@ -1,5 +1,5 @@
 module.exports = {
-  title: "hisasann-dialy", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
+  title: "@hisasann日記", // populated into `publication.json`, default to `title` of the first entry or `name` in `package.json`.
   author: "hisasann <hisasann25@gmail.com>", // default to `author` in `package.json` or undefined.
   language: "ja", // default to undefined.
   size: "A5", // paper size.
@@ -10,6 +10,7 @@ module.exports = {
     "2021-09.md",
     "2021-10.md",
     "2021-11.md",
+    "2021-12.md",
     "epilogue.md",
     // {
     //   path: 'epigraph.md',
@@ -27,8 +28,8 @@ module.exports = {
       format: "webpub",
     },
   ],
-  // workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
-  // toc: true, // whether generate and include ToC HTML or not, default to 'false'.
+  workspaceDir: '.vivliostyle', // directory which is saved intermediate files.
+  toc: true, // 目次を作成するかどうか
   // cover: './cover.png', // cover image. default to undefined.
   // vfm: { // options of VFM processor
   //   hardLineBreaks: true, // converts line breaks of VFM to <br> tags. default to 'false'.
