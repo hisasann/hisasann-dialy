@@ -185,3 +185,18 @@ figure > picture > img {
 @page :right {
   --vs-page--mbox-content-top-right: var(--vs-theme--page-top-right-content);
 }
+
+.cover {
+  page: cover;
+  break-after: page;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .author {
+    ul {
+      text-align: center;
+    }
+  }
+}
